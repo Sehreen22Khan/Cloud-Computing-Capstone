@@ -555,6 +555,9 @@
             <mxPoint x="444" y="377" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="O4ym9vWu2uvGQRPtnUVD-92" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#8C4FFF;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.opensearch_service_index;" vertex="1" parent="1">
+          <mxGeometry x="890" y="530" width="78" height="78" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
