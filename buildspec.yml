@@ -1,0 +1,19 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo "Installing dependencies (if any)..."
+  pre_build:
+    commands:
+      - echo "Preparing build environment..."
+  build:
+    commands:
+      - echo "Building and packaging the app folder..."
+  post_build:
+    commands:
+      - echo "Uploading to S3..."
+      - aws s3 sync app s3://<your-s3-bucket-name>/ --delete
+artifacts:
+  files:
+    - '**/*'
